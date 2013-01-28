@@ -1,8 +1,14 @@
-#include <iostream>
-using namespace std;
+#include "InitialState.h"
 
-int main() {
+#include <Scene/Game.hpp>
 
+int main(int argc, char** argv) {
+//	HWND hWnd = GetConsoleWindow();
+//    ShowWindow(hWnd, SW_HIDE);
 
-	return 0;
+	dt::Game game;
+
+	game.run(new InitialState(), argc, argv);
+
+    return 0;
 }
