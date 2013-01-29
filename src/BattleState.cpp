@@ -42,3 +42,5 @@ void BattleState::onDeinitialize() {
 void BattleState::updateStateFrame(double simulation_frame_time) {
 
 }
+
+// Just testing. Sorry :) 
